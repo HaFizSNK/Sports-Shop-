@@ -76,6 +76,7 @@ let CalculateThePrice=()=>{
         if (Value4 !== 0) {
             Result = Result + Value4
         }
+       
         let ResultDiv = $('.Result');
         ResultDiv.innerHTML = `
         <style>
@@ -86,7 +87,7 @@ let CalculateThePrice=()=>{
             padding: 0;
             font: 400 .875rem 'Open Sans', sans-serif;
             color: #bcd0f7;
-            background: #1A233A;
+            background: white;
             position: relative;
             height: 100%;
         }
@@ -241,14 +242,14 @@ let CalculateThePrice=()=>{
     						<div class="row gutters">
     							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
     								<a href="index.html" class="invoice-logo">
-    									Bootdey.com
+    									SPorts  Club
     								</a>
     							</div>
     							<div class="col-lg-6 col-md-6 col-sm-6">
     								<address class="text-right">
-    									Maxwell admin Inc, 45 NorthWest Street.<br>
-    									Sunrise Blvd, San Francisco.<br>
-    									00000 00000
+    									Sports Club,Quaid e Azam Street<br>
+    									Haroonabad, Pakistan.<br>
+    									062100
     								</address>
     							</div>
     						</div>
@@ -259,16 +260,16 @@ let CalculateThePrice=()=>{
     							<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
     								<div class="invoice-details">
     									<address>
-    										Alex Maxwell<br>
-    										150-600 Church Street, Florida, USA
+    										InvoiceDate: January:26 september 2023<br>
+    										InvoiceTo:PCB
     									</address>
     								</div>
     							</div>
     							<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
     								<div class="invoice-details">
     									<div class="invoice-num">
-    										<div>Invoice - #009</div>
-    										<div>January 10th 2020</div>
+    										<div>Invoice - #1101</div>
+    										
     									</div>
     								</div>													
     							</div>
@@ -365,6 +366,8 @@ let CalculateThePrice=()=>{
     </div>
 </div>
         `
+
+
 
     } catch (error) {
         console.log(error.message)

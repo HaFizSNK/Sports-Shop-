@@ -1,0 +1,9 @@
+body{
+    background-image:url(../assets/images.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wel{
+    font-size: 46px;
+    color: aqua;
+}
